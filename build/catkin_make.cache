@@ -1,0 +1,2 @@
+ghm_action:gmh_plugilib
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/ghm/ros_study/devel -DCMAKE_INSTALL_PREFIX=/home/ghm/ros_study/install -G Unix Makefiles

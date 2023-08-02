@@ -1,0 +1,2 @@
+set(ghm_action_MESSAGE_FILES "/home/ghm/ros_study/devel/share/ghm_action/msg/ghm_AddintAction.msg;/home/ghm/ros_study/devel/share/ghm_action/msg/ghm_AddintActionGoal.msg;/home/ghm/ros_study/devel/share/ghm_action/msg/ghm_AddintActionResult.msg;/home/ghm/ros_study/devel/share/ghm_action/msg/ghm_AddintActionFeedback.msg;/home/ghm/ros_study/devel/share/ghm_action/msg/ghm_AddintGoal.msg;/home/ghm/ros_study/devel/share/ghm_action/msg/ghm_AddintResult.msg;/home/ghm/ros_study/devel/share/ghm_action/msg/ghm_AddintFeedback.msg")
+set(ghm_action_SERVICE_FILES "")

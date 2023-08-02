@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/opt/ros/noetic/include/**",
+                "/home/ghm/0801/my_ros/ros_ws_motion/src/arm_moveit_motion/include/**",
+                "/home/ghm/0801/my_ros/ros_ws_motion/src/env_robot/include/**",
+                "/home/ghm/0801/my_ros/ros_ws_motion/src/ghm_robot_config/include/**",
+                "/home/ghm/ros_study/src/gmh_plugilib/include/**",
+                "/home/ghm/0801/my_ros/ros_ws_motion/src/keyboard_ctrl/include/**",
+                "/home/ghm/0801/my_ros/ros_ws_motion/src/mobile_arm/include/**",
+                "/home/ghm/0801/my_ros/ros_ws_motion/src/my_slam/include/**",
+                "/home/ghm/0801/my_ros/ros_ws_motion/src/realsense_ros_gazebo/include/**",
+                "/home/ghm/0801/my_ros/ros_ws_motion/src/robot_model/include/**",
+                "/home/ghm/ros_study/src/gmh_plugilib/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
