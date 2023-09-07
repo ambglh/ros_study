@@ -1,0 +1,15 @@
+<launch>
+    <!-- 全局参数 -->
+    <param name = "ghm_param1" value = "1" />
+    <param name = "ghm_param2" value = "2" />
+    <param name = "serial" value = "10" />
+    <rosparam>
+        param3: 3
+        param4: 4
+        param5: 5
+    </rosparam>
+    <node pkg = "param" type = "param_node" name = "param_node" output = "screen" >
+    <!-- ·局部参数 -->
+    <param name = "serial" value = "5" />
+    </node>
+</launch>

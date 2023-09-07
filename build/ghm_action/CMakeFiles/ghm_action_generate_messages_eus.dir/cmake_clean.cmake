@@ -1,5 +1,12 @@
 file(REMOVE_RECURSE
   "/home/ghm/ros_study/devel/share/roseus/ros/ghm_action/manifest.l"
+  "/home/ghm/ros_study/devel/share/roseus/ros/ghm_action/msg/dowishAction.l"
+  "/home/ghm/ros_study/devel/share/roseus/ros/ghm_action/msg/dowishActionFeedback.l"
+  "/home/ghm/ros_study/devel/share/roseus/ros/ghm_action/msg/dowishActionGoal.l"
+  "/home/ghm/ros_study/devel/share/roseus/ros/ghm_action/msg/dowishActionResult.l"
+  "/home/ghm/ros_study/devel/share/roseus/ros/ghm_action/msg/dowishFeedback.l"
+  "/home/ghm/ros_study/devel/share/roseus/ros/ghm_action/msg/dowishGoal.l"
+  "/home/ghm/ros_study/devel/share/roseus/ros/ghm_action/msg/dowishResult.l"
   "/home/ghm/ros_study/devel/share/roseus/ros/ghm_action/msg/ghm_AddintAction.l"
   "/home/ghm/ros_study/devel/share/roseus/ros/ghm_action/msg/ghm_AddintActionFeedback.l"
   "/home/ghm/ros_study/devel/share/roseus/ros/ghm_action/msg/ghm_AddintActionGoal.l"

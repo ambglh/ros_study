@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "RelWithDebInfo")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -38,7 +38,10 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ghm_action/action" TYPE FILE FILES "/home/ghm/ros_study/src/ghm_action/action/ghm_Addint.action")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ghm_action/action" TYPE FILE FILES
+    "/home/ghm/ros_study/src/ghm_action/action/ghm_Addint.action"
+    "/home/ghm/ros_study/src/ghm_action/action/dowish.action"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -50,6 +53,18 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/ghm/ros_study/devel/share/ghm_action/msg/ghm_AddintGoal.msg"
     "/home/ghm/ros_study/devel/share/ghm_action/msg/ghm_AddintResult.msg"
     "/home/ghm/ros_study/devel/share/ghm_action/msg/ghm_AddintFeedback.msg"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ghm_action/msg" TYPE FILE FILES
+    "/home/ghm/ros_study/devel/share/ghm_action/msg/dowishAction.msg"
+    "/home/ghm/ros_study/devel/share/ghm_action/msg/dowishActionGoal.msg"
+    "/home/ghm/ros_study/devel/share/ghm_action/msg/dowishActionResult.msg"
+    "/home/ghm/ros_study/devel/share/ghm_action/msg/dowishActionFeedback.msg"
+    "/home/ghm/ros_study/devel/share/ghm_action/msg/dowishGoal.msg"
+    "/home/ghm/ros_study/devel/share/ghm_action/msg/dowishResult.msg"
+    "/home/ghm/ros_study/devel/share/ghm_action/msg/dowishFeedback.msg"
     )
 endif()
 

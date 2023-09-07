@@ -10,6 +10,7 @@ project(ghm_action)
 find_package(catkin REQUIRED COMPONENTS
   actionlib
   actionlib_msgs
+  # genmsg
   roscpp
   rospy
   std_msgs
@@ -65,9 +66,15 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate actions in the 'action' folder
 add_action_files(
   FILES
-  ghm_Addint.action
+  ghm_Addint.action  
+  dowish.action
+
 )
 
+# add_action_files(
+#   FILES
+#   DoDishes.action
+# )
 ## Generate added messages and services with any dependencies listed here
 generate_messages(
   DEPENDENCIES
@@ -138,6 +145,10 @@ include_directories(
 # add_executable(${PROJECT_NAME}_node src/ghm_action_node.cpp)
 add_executable(ghm_action_servser src/ghm_action_server.cpp)
 add_executable(ghm_action_client src/ghm_action_client.cpp)
+add_executable(dowish_client src/dowish_client.cpp)
+add_executable(dowish_server src/dowish_server.cpp)
+
+
 
 
 
@@ -159,6 +170,13 @@ target_link_libraries(ghm_action_servser
 )
 
 target_link_libraries(ghm_action_client
+  ${catkin_LIBRARIES}
+)
+
+target_link_libraries(dowish_client
+  ${catkin_LIBRARIES}
+)
+target_link_libraries(dowish_server
   ${catkin_LIBRARIES}
 )
 

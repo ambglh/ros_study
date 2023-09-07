@@ -1,0 +1,8 @@
+prefix=/home/ghm/ros_study/devel
+
+Name: param
+Description: Description of param
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

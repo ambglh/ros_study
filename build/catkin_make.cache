@@ -1,2 +1,2 @@
-ghm_action:gmh_plugilib
--DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/ghm/ros_study/devel -DCMAKE_INSTALL_PREFIX=/home/ghm/ros_study/install -G Unix Makefiles
+ghm_action:ghm_rviz:gmh_plugilib:odom_pub:param:ros_blog_sources/action_tutorials:ros_blog_sources/pluginlib_tutorials:ros_blog_sources/rviz_teleop_commander:ros_blog_sources/smach_tutorials:ros_tf:slam_gmapping/gmapping:slam_gmapping/slam_gmapping:traking_plugin
+-DCATKIN_WHITELIST_PACKAGES=ghm_rviz -DCATKIN_DEVEL_PREFIX=/home/ghm/ros_study/devel -DCMAKE_INSTALL_PREFIX=/home/ghm/ros_study/install -G Unix Makefiles

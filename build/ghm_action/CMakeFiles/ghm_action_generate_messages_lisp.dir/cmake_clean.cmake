@@ -1,4 +1,11 @@
 file(REMOVE_RECURSE
+  "/home/ghm/ros_study/devel/share/common-lisp/ros/ghm_action/msg/dowishAction.lisp"
+  "/home/ghm/ros_study/devel/share/common-lisp/ros/ghm_action/msg/dowishActionFeedback.lisp"
+  "/home/ghm/ros_study/devel/share/common-lisp/ros/ghm_action/msg/dowishActionGoal.lisp"
+  "/home/ghm/ros_study/devel/share/common-lisp/ros/ghm_action/msg/dowishActionResult.lisp"
+  "/home/ghm/ros_study/devel/share/common-lisp/ros/ghm_action/msg/dowishFeedback.lisp"
+  "/home/ghm/ros_study/devel/share/common-lisp/ros/ghm_action/msg/dowishGoal.lisp"
+  "/home/ghm/ros_study/devel/share/common-lisp/ros/ghm_action/msg/dowishResult.lisp"
   "/home/ghm/ros_study/devel/share/common-lisp/ros/ghm_action/msg/ghm_AddintAction.lisp"
   "/home/ghm/ros_study/devel/share/common-lisp/ros/ghm_action/msg/ghm_AddintActionFeedback.lisp"
   "/home/ghm/ros_study/devel/share/common-lisp/ros/ghm_action/msg/ghm_AddintActionGoal.lisp"

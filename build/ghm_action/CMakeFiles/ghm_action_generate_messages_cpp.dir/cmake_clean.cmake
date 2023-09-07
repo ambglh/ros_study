@@ -1,4 +1,11 @@
 file(REMOVE_RECURSE
+  "/home/ghm/ros_study/devel/include/ghm_action/dowishAction.h"
+  "/home/ghm/ros_study/devel/include/ghm_action/dowishActionFeedback.h"
+  "/home/ghm/ros_study/devel/include/ghm_action/dowishActionGoal.h"
+  "/home/ghm/ros_study/devel/include/ghm_action/dowishActionResult.h"
+  "/home/ghm/ros_study/devel/include/ghm_action/dowishFeedback.h"
+  "/home/ghm/ros_study/devel/include/ghm_action/dowishGoal.h"
+  "/home/ghm/ros_study/devel/include/ghm_action/dowishResult.h"
   "/home/ghm/ros_study/devel/include/ghm_action/ghm_AddintAction.h"
   "/home/ghm/ros_study/devel/include/ghm_action/ghm_AddintActionFeedback.h"
   "/home/ghm/ros_study/devel/include/ghm_action/ghm_AddintActionGoal.h"

@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ghm/ros_study/build
 include ghm_action/CMakeFiles/_ghm_action_generate_messages_check_deps_ghm_AddintActionGoal.dir/progress.make
 
 ghm_action/CMakeFiles/_ghm_action_generate_messages_check_deps_ghm_AddintActionGoal:
-	cd /home/ghm/ros_study/build/ghm_action && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ghm_action /home/ghm/ros_study/devel/share/ghm_action/msg/ghm_AddintActionGoal.msg actionlib_msgs/GoalID:std_msgs/Header:ghm_action/ghm_AddintGoal
+	cd /home/ghm/ros_study/build/ghm_action && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ghm_action /home/ghm/ros_study/devel/share/ghm_action/msg/ghm_AddintActionGoal.msg std_msgs/Header:actionlib_msgs/GoalID:ghm_action/ghm_AddintGoal
 
 _ghm_action_generate_messages_check_deps_ghm_AddintActionGoal: ghm_action/CMakeFiles/_ghm_action_generate_messages_check_deps_ghm_AddintActionGoal
 _ghm_action_generate_messages_check_deps_ghm_AddintActionGoal: ghm_action/CMakeFiles/_ghm_action_generate_messages_check_deps_ghm_AddintActionGoal.dir/build.make

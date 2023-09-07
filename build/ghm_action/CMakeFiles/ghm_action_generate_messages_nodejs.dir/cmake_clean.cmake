@@ -1,4 +1,11 @@
 file(REMOVE_RECURSE
+  "/home/ghm/ros_study/devel/share/gennodejs/ros/ghm_action/msg/dowishAction.js"
+  "/home/ghm/ros_study/devel/share/gennodejs/ros/ghm_action/msg/dowishActionFeedback.js"
+  "/home/ghm/ros_study/devel/share/gennodejs/ros/ghm_action/msg/dowishActionGoal.js"
+  "/home/ghm/ros_study/devel/share/gennodejs/ros/ghm_action/msg/dowishActionResult.js"
+  "/home/ghm/ros_study/devel/share/gennodejs/ros/ghm_action/msg/dowishFeedback.js"
+  "/home/ghm/ros_study/devel/share/gennodejs/ros/ghm_action/msg/dowishGoal.js"
+  "/home/ghm/ros_study/devel/share/gennodejs/ros/ghm_action/msg/dowishResult.js"
   "/home/ghm/ros_study/devel/share/gennodejs/ros/ghm_action/msg/ghm_AddintAction.js"
   "/home/ghm/ros_study/devel/share/gennodejs/ros/ghm_action/msg/ghm_AddintActionFeedback.js"
   "/home/ghm/ros_study/devel/share/gennodejs/ros/ghm_action/msg/ghm_AddintActionGoal.js"

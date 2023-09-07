@@ -1,0 +1,8 @@
+prefix=/home/ghm/ros_study/install
+
+Name: ghm_rviz
+Description: Description of ghm_rviz
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

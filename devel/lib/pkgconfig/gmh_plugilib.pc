@@ -1,8 +1,0 @@
-prefix=/home/ghm/ros_study/devel
-
-Name: gmh_plugilib
-Description: Description of gmh_plugilib
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

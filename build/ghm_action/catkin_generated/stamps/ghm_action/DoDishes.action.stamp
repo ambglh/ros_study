@@ -1,0 +1,5 @@
+unint32 dishwasher_id
+---
+unint32 total_dishes_cleaned
+---
+float percent_complete
